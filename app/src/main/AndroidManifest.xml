@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="dku.dkuforeign">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher_newtest"
+            android:label="DKU"
+            android:roundIcon="@mipmap/ic_launcher_newtest_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".splash"
+                android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".login"/>
+        <activity android:name=".logout_check"
+                  android:noHistory="true"/>
+        <activity android:name=".community"/>
+        <activity android:name=".place"/>
+        <activity android:name=".Cloth"/>
+        <activity android:name=".Grocery"/>
+        <activity android:name=".Utility"/>
+        <activity android:name=".Outlet"/>
+        <activity android:name=".Bojeong"/>
+        <activity android:name=".Emart"/>
+        <activity android:name=".Lottemart"/>
+        <activity android:name=".Homeplus"/>
+        <activity android:name=".Daiso"/>
+        <activity android:name=".Electro"/>
+        <activity android:name=".Other"/>
+        <activity android:name=".event_application"
+                  android:noHistory="true"/>
+        <activity android:name=".event_content"/>
+        <activity android:name=".event_party"
+                  android:noHistory="true"/>
+        <activity android:name=".event_study"
+                  android:noHistory="true"/>
+        <activity android:name=".mentoring_application"
+                  android:noHistory="true"/>
+        <activity android:name=".mentoring_content"/>
+        <activity android:name=".mentor_board"
+                  android:noHistory="true"/>
+        <activity android:name=".mentee_board"
+                  android:noHistory="true"/>
+        <activity android:name=".home"/>
+        <activity android:name=".amusementpark"/>
+        <activity android:name=".club"/>
+        <activity android:name=".brown"/>
+        <activity android:name=".cakeshop"/>
+        <activity android:name=".changdeok"/>
+        <activity android:name=".changgyeong"/>
+        <activity android:name=".deoksu"/>
+        <activity android:name=".everland"/>
+        <activity android:name=".gangnam"/>
+        <activity android:name=".gyeongbok"/>
+        <activity android:name=".hitehouse"/>
+        <activity android:name=".hongdae"/>
+        <activity android:name=".itaewon"/>
+        <activity android:name=".laskal"/>
+        <activity android:name=".lotteworld"/>
+        <activity android:name=".museum"/>
+        <activity android:name=".nb2"/>
+        <activity android:name=".nfmok"/>
+        <activity android:name=".nmok"/>
+        <activity android:name=".octagon"/>
+        <activity android:name=".palace"/>
+        <activity android:name=".shinhwa"/>
+        <activity android:name=".smoa"/>
+        <activity android:name=".smoh"/>
+        <activity android:name=".soap"/>
+        <activity android:name=".wmok"/>
+        <activity android:name=".pub"/>
+        <activity android:name=".othernext"/>
+        <activity android:name=".calendar"/>
+        <activity android:name=".Shinsegae">
+        </activity>
+    </application>
+
+</manifest>

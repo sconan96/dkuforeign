@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+            android:text="In Shinsegae Department Store, there are many things. The down ground floor is food court. The food court sells various meals. Some example of them is beef rice bowl, Italian pizza, Mexican style hot dog, and so on. At first floor you can buy luxurious stuff. It sells luxury good, masterpiece, cosmetic products, diamond ring, and diamond necklace. At second floor you can buy clothes for women and casual shoes."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="left"/>
+    </LinearLayout>
+</LinearLayout>

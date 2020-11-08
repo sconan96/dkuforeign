@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+            android:text="Electro Mart is a place to buy electronic home appliances. All the electronic devices are there. You can buy different brand of computers and laptop. People who are interested in game, you guys can buy Nintendo Wii and Nintendo Switch. Play the games when you get stress from school work. Unfortunately you can not buy phones at Electro Mart."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="left"/>
+    </LinearLayout>
+</LinearLayout>
